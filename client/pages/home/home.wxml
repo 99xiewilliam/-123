@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<scroll-view scroll-y class="scrollPage">
+
+  <image src='../images/BasicsBg.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+  <view class="pyramid">
+
+    <view class="layer">
+      <navigator id="triangle-up" url="../logs/logs">{{dataList[0].name}}</navigator>
+    </view>
+    <view class="layer">
+      <navigator id="trapezoid-mid-left" url="../logs/logs"></navigator>
+      <navigator id="rectangle-mid" url="../logs/logs"></navigator>
+      <navigator id="trapezoid-mid-right" url="../logs/logs"></navigator>
+    </view>
+    <view class="layer">
+      <navigator id="trapezoid-bottom-left" url="../logs/logs"></navigator>
+      <navigator id="rectangle-bottom" url="../logs/logs"></navigator>
+      <navigator id="trapezoid-bottom-right" url="../logs/logs"></navigator>
+    </view>
+  </view>
+</scroll-view>

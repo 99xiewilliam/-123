@@ -1,0 +1,70 @@
+/* pages/home/home.wxss */
+.pyramid {
+  /* height: 200rpx; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.layer {
+  margin: 6rpx;
+  display: flex;
+  align-items: center;
+}
+.text {
+  /* margin-left: -70rpx;
+  margin-top: 80rpx; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 215 */
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 150rpx solid transparent;
+  border-right: 150rpx solid transparent;
+  border-bottom: 260rpx solid #cce6ff;
+}
+/* 70,160,70*/
+/* 100,70,160,70,100 */
+#rectangle-mid {
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  width: 160rpx;
+  height: 200rpx;
+  background: #e1d7f0;
+}
+#trapezoid-mid-left {
+  border-bottom: 200rpx solid #ebd4ef; /* 梯形的高 */
+  border-left: 100rpx solid transparent;
+  height: 0;
+  width: 70rpx;  /* 梯形上底的宽度 */
+}
+#trapezoid-mid-right {
+  border-bottom: 200rpx solid #ede1d9; /* 梯形的高 */
+  border-right: 100rpx solid transparent;
+  height: 0;
+  width: 70rpx;  /* 梯形上底的宽度 */
+}
+/* 130,240,130*/
+/* 100,130,240,130,100 */
+#rectangle-bottom {
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+  width: 240rpx;
+  height: 200rpx;
+  background: #fde6d2;
+}
+#trapezoid-bottom-left {
+  border-bottom: 200rpx solid #e7ebed; /* 梯形的高 */
+  border-left: 100rpx solid transparent;
+  height: 0;
+  width: 130rpx;  /* 梯形上底的宽度 */
+}
+#trapezoid-bottom-right {
+  border-bottom: 200rpx solid #fadbd9; /* 梯形的高 */
+  border-right: 100rpx solid transparent;
+  height: 0;
+  width: 130rpx;  /* 梯形上底的宽度 */
+}
